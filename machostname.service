@@ -1,0 +1,12 @@
+[Unit]
+Description=Set hostname based on MAC address
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/machostname
+RemainAfterExit=true
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target
+

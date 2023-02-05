@@ -1,0 +1,10 @@
+# machostname configuration file
+# This configuration file is loaded either from the directory you
+# call the machostname binary or from /etc/machostname.conf
+
+# As you can see, it supports comments and empty lines
+
+# To define a new hostname, use following syntax with
+# lowercase MAC address, a space, and hostname for specified machine
+aa:bb:cc:dd:ee:ff very-nice-machine
+
